@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+.next/
+out/
+
+# ASP.NET Core
+bin/
+obj/
+*.user
+*.vs/
+
+# OS
+.DS_Store
+
+# Env
+.env
