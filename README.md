@@ -133,6 +133,7 @@ user_settings	Stores currently active avatar and banner for a user
 
     Selecting a visual item updates the user's profile in real-time
 
+# Standard format
 prysm/
 ├── frontend/
 │   ├── pages/
@@ -151,7 +152,6 @@ prysm/
 │   ├── schemas/
 │   └── services/
 └── README.md
-
 
 📌 Possible Future Improvements
 
