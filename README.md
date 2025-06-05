@@ -134,24 +134,22 @@ user_settings	Stores currently active avatar and banner for a user
     Selecting a visual item updates the user's profile in real-time
 
 ```text
-prysm/
-├── frontend/
-│   ├── pages/
-│   ├── components/
-│   ├── context/
-│   └── utils/
-├── backend/
-│   ├── main.py
-│   ├── routers/
-│   │   ├── auth.py
-│   │   ├── products.py
-│   │   ├── cart.py
-│   │   ├── profile.py
-│   │   └── visuals.py
-│   ├── models/
-│   ├── schemas/
-│   └── services/
-└── README.md
+BookStore/
+├── main/
+│   └── store/
+│       └── src/
+│           ├── api
+│           ├── app
+│           ├── components
+│           ├── store
+│           └── types
+└── mainServer/
+    ├── authServer/
+    ├── server/
+    ├── socketServer/
+    └── staticFileServer/
+        ├── server/
+        └── static/
 ```
     
 📌 Possible Future Improvements
