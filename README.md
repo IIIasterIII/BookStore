@@ -134,40 +134,24 @@ user_settings	Stores currently active avatar and banner for a user
     Selecting a visual item updates the user's profile in real-time
 
 # Standard format
-prysm/
-├── frontend/
-│   ├── pages/
-│   ├── components/
-│   ├── context/
-│   └── utils/
-├── backend/
-│   ├── main.py
-│   ├── routers/
-│   │   ├── auth.py
-│   │   ├── products.py
-│   │   ├── cart.py
-│   │   ├── profile.py
-│   │   └── visuals.py
-│   ├── models/
-│   ├── schemas/
-│   └── services/
-└── README.md
-
-# Simplified format (works too!)
-project-name/
-  src/
-    components/
-      Header.js
-      Footer.js
-    pages/
-      Home.js
-      About.js
-    index.js
-  public/
-    images/
-      logo.png
-    index.html
-  package.json
+prysm/ <br/>
+├── frontend/ <br/>
+│   ├── pages/ <br/>
+│   ├── components/ <br/>
+│   ├── context/ <br/>
+│   └── utils/ <br/>
+├── backend/ <br/> 
+│   ├── main.py <br/>
+│   ├── routers/ <br/>
+│   │   ├── auth.py <br/>
+│   │   ├── products.py <br/>
+│   │   ├── cart.py <br/>
+│   │   ├── profile.py <br/>
+│   │   └── visuals.py <br/>
+│   ├── models/ <br/>
+│   ├── schemas/ <br/>
+│   └── services/ <br/> 
+└── README.md <br/>
 
 📌 Possible Future Improvements
 
