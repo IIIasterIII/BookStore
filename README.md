@@ -138,11 +138,23 @@ BookStore/
 ├── main/
 │   └── store/
 │       └── src/
-│           ├── api
-│           ├── app
-│           ├── components
-│           ├── store
-│           └── types
+│       │   ├── authApi.ts
+│       │   ├── bookApi.ts
+│       │   ├── buyApi.ts
+│       │   ├── profileApi.ts
+│       │   ├── staticApi.ts
+│       │   └── refill.ts
+│       ├── api
+│       ├── app
+│       ├── components
+│       ├── store
+│       │   ├── auth.ts
+│       │   ├── cart.ts
+│       │   ├── useToastStore.ts
+│       │   └── useWebSocket.ts
+│       └── types
+│           ├── items.ts
+│           └── profles.ts
 └── mainServer/
     ├── requirements.txt
     ├── authServer/
