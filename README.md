@@ -153,6 +153,22 @@ prysm/
 │   └── services/
 └── README.md
 
+# Simplified format (works too!)
+project-name/
+  src/
+    components/
+      Header.js
+      Footer.js
+    pages/
+      Home.js
+      About.js
+    index.js
+  public/
+    images/
+      logo.png
+    index.html
+  package.json
+
 📌 Possible Future Improvements
 
     📈 Admin dashboard with analytics
