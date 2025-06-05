@@ -144,12 +144,23 @@ BookStore/
 │           ├── store
 │           └── types
 └── mainServer/
+    ├── requirements.txt
     ├── authServer/
+    │   ├── .env
+    │   └── main.py
     ├── server/
+    │  ├── Controllers
+    │  ├── Data
+    │  ├── Models
+    │  └── DTOs
     ├── socketServer/
+    │   └── main.py
     └── staticFileServer/
-        ├── server/
-        └── static/
+        ├── static/
+        │  ├── avatars
+        │  ├── banners
+        │  └── borders
+        └── main.py
 ```
     
 📌 Possible Future Improvements
